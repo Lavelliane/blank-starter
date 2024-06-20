@@ -40,7 +40,7 @@
    - Start the Strapi development server:
 
      ```bash
-     yarn develop
+     npm run develop
      ```
 
    - Open `http://localhost:1337/admin` in your web browser to access the Strapi admin panel. You'll need to create an admin user to manage your content.
