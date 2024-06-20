@@ -43,7 +43,7 @@
      ```bash
      npm run develop
      ```
-
+     
    - Open `http://localhost:1337/admin` in your web browser to access the Strapi admin panel. You'll need to create an admin user to manage your content.
 
 4. **Create Next.js Application:**
@@ -63,7 +63,9 @@
      ```bash
      npm install
      ```
-
+     
    - This command generates a basic Next.js project structure with the dependencies for Apollo GraphQL.
+  
+That's it! See you on the Workshop
 
 
