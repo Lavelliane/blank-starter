@@ -3,6 +3,8 @@
 - **Node.js (v18.x or v20.x):** [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager) (Ensure you have an LTS version for stability)
 - **Yarn (package manager):** [https://classic.yarnpkg.com/lang/en/docs/install/](https://classic.yarnpkg.com/lang/en/docs/install/) (If not already installed, run `npm install -g yarn` in your terminal)
 - **Code Editor:** Choose your preferred editor like Visual Studio Code, WebStorm, or Atom.
+- **Git:** for branch navigation and version control.
+- **Terminal** You can use Bash, Powershell (Just set the execution policies to allow npm or yarn to run), Command Prompt, zsh
 
 **Optional VSCode Extensions (Enhance Development Experience):**
 
