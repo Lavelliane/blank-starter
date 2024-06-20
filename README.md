@@ -60,14 +60,14 @@
      ```
       ***It should show something like this***
      ```bash
-      What is your project named? my-app (decide on your app name)
-      Would you like to use TypeScript? No / Yes (The project is in JavaScript so choose No but if you know TypeScript you can choose Yes )
-      Would you like to use ESLint? No / Yes (Choose Yes)
-      Would you like to use Tailwind CSS? No / Yes (Choose Yes)
-      Would you like to use `src/` directory? No / Yes (Could be Yes or No, depends on your preference)
-      Would you like to use App Router? (recommended) No / Yes (Choose Yes)
-      Would you like to customize the default import alias (@/*)? No / Yes (Choose No)
-      What import alias would you like configured? @/*
+      What is your project named? my-app =====> (decide on your app name)
+      Would you like to use TypeScript? No / Yes =====> (The project is in JavaScript so choose No but if you know TypeScript you can choose Yes )
+      Would you like to use ESLint? No / Yes =====> (Choose Yes)
+      Would you like to use Tailwind CSS? No / Yes =====> (Choose Yes)
+      Would you like to use `src/` directory? No / Yes =====> (Could be Yes or No, depends on your preference)
+      Would you like to use App Router? (recommended) No / Yes =====> (Choose Yes)
+      Would you like to customize the default import alias (@/*)? No / Yes =====> (Choose No)
+      What import alias would you like configured? @/* =====> (Choose @)
      ```
 
    - This command generates a basic Next.js project structure.
