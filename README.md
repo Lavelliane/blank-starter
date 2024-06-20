@@ -10,6 +10,7 @@
 2. **ES7+ React/Redux/React-Native snippets:** Speeds up coding with pre-written code snippets for modern JavaScript features and React patterns.
 3. **Tailwind CSS Intellisense:** Provides intelligent code completion and suggestions for Tailwind CSS classes.
 4. **Prettier:** Auto-formats your code for consistent formatting and readability.
+5. **Auto Close Tag and Auto Rename Tag:** Auto-formats your code for closing and renaming tags in JSX.
 
 **Steps:**
 
@@ -53,43 +54,16 @@
      cd ..
      ```
 
-   - Create a new Next.js application using Yarn:
+   - Create a new Next.js application by forking or cloning this repository:
 
      ```bash
-     npx create-next-app@14.1.4
+     git clone https://github.com/Lavelliane/blank-starter.git
      ```
-      ***It should show something like this***
+      ***Install Dependencies***
      ```bash
-      What is your project named? my-app =====> (decide on your app name)
-      Would you like to use TypeScript? No / Yes =====> (The project is in JavaScript so choose No but if you know TypeScript you can choose Yes )
-      Would you like to use ESLint? No / Yes =====> (Choose Yes)
-      Would you like to use Tailwind CSS? No / Yes =====> (Choose Yes)
-      Would you like to use `src/` directory? No / Yes =====> (Could be Yes or No, depends on your preference)
-      Would you like to use App Router? (recommended) No / Yes =====> (Choose Yes)
-      Would you like to customize the default import alias (@/*)? No / Yes =====> (Choose No)
-      What import alias would you like configured? @/* =====> (Choose @)
+     npm install
      ```
 
-   - This command generates a basic Next.js project structure.
+   - This command generates a basic Next.js project structure with the dependencies for Apollo GraphQL.
 
-5. **Install Additional Dependencies (Optional):**
 
-   - If you plan to use GraphQL with your Next.js app to fetch data from Strapi, install the necessary dependencies in the `nextjs-app` directory:
-
-     ```bash
-     cd nextjs-app
-     yarn add @apollo/client @apollo/client/next
-     ```
-
-6. **Connect Next.js App to Strapi (Next Steps):**
-
-   - **Define Content Models:** In the Strapi admin panel, create content models to define the structure of your data (e.g., posts, articles, products).
-   - **Set Up API Routes:** Configure Strapi to expose your content models as RESTful API endpoints that your Next.js app can interact with. Refer to the Strapi documentation for details.
-   - **Fetch Data in Next.js:** In your Next.js app, use the `Apollo Client` (or other methods) to fetch data from the Strapi API endpoints and display it on your pages.
-
-**Additional Tips:**
-
-- Customize your Next.js app to suit your project's needs by adding components, pages, and styles as required.
-- Explore the Strapi documentation for in-depth configuration options and advanced features: [https://docs.strapi.io/](https://docs.strapi.io/)
-
-By following these comprehensive steps and customizing them to your specific project requirements, you'll have a solid foundation for building powerful and dynamic applications with Strapi and Next.js!
